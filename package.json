@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
+    "predeploy": "vite build && echo 'henrikdc.dk' > dist/CNAME",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
