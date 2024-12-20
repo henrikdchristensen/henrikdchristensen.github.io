@@ -2,7 +2,7 @@ const Contact: React.FC = () => {
   return (
     <div style={{ textAlign: 'center', padding: '20px' }}>
       <h2>Contact Us</h2>
-      <p>If you have any questions, feel free to reach out to us at:</p>
+      <p>Any questions, feel free to reach out:</p>
       <a href="mailto:example@example.com" style={{ color: '#007bff', textDecoration: 'underline' }}>
         example@example.com
       </a>
