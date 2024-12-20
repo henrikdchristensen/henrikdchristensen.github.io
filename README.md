@@ -1,3 +1,9 @@
+# TODOs
+- slet cname fil i rod
+- tror cname prop i pacakge fil er unødvendig
+- 
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
