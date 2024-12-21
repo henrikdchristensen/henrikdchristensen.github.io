@@ -9,7 +9,9 @@
 - Added script in `package.json` for deploying to github pages: `"deploy": "gh-pages -d dist gh-pages -d build"`, see also [link](https://github.com/peaceiris/actions-gh-pages/)
 - Added `CNAME` file in `public` folder containing domain name `henrikdc.dk`.
 - Use `HashRouter` instead of `BrowserRouter` in `App.tsx` to make it work with github pages.
-
+- shadcn for components
+- Uses tailwindcss for styling
+- tabler/icons for icons
 
 # React + TypeScript + Vite
 
