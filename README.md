@@ -2,6 +2,13 @@
 - slet cname fil i rod
 - tror cname prop i pacakge fil er unødvendig
 - 
+--cname henrikdc.dk
+
+# Added
+- Initiated vite react typescript project: `npm create vite@latest my-vue-app -- --template react-ts`
+- Added script in `package.json` for deploying to github pages: `"deploy": "gh-pages -d dist gh-pages -d build"`, see also [link](https://github.com/peaceiris/actions-gh-pages/)
+- Added `CNAME` file in `public` folder containing domain name `henrikdc.dk`.
+- Use `HashRouter` instead of `BrowserRouter` in `App.tsx` to make it work with github pages.
 
 
 # React + TypeScript + Vite

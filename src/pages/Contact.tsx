@@ -1,4 +1,4 @@
-const Contact: React.FC = () => {
+const Contact = () => {
   return (
     <div style={{ textAlign: 'center', padding: '20px' }}>
       <h2>Contact Us</h2>
